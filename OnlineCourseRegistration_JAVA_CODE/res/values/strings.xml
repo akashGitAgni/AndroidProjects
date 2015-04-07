@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OnlineCourseRegistration</string>
+    <string name="action_settings">Settings</string>
+    <string name="student_id">Enter Your Student ID!</string>
+    
+      <string-array name="term">
+        <item>Fall</item>
+        <item>Spring</item>
+        <item>Winter</item>
+        <item>Summer</item>       
+    </string-array>
+
+</resources>

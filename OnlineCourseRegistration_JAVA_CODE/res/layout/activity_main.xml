@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" 
+    android:layout_gravity="center_vertical">
+
+    <EditText
+        android:id="@+id/studentID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Your Student ID" />
+
+    <Button
+        android:id="@+id/studentButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter as Student" />
+    
+	<EditText
+        android:id="@+id/instructorId"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Your Instructor ID" />
+    <Button
+        android:id="@+id/instButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter As Instructor" />
+
+
+</LinearLayout>

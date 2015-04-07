@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinecourseregistration"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.onlinecourseregistration.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.onlinecourseregistration.StudentMainActivity" >
+        </activity>
+        <activity android:name="com.example.onlinecourseregistration.StudentRecord" >
+        </activity>
+        <activity android:name="com.example.onlinecourseregistration.SearchCourses" >
+        </activity>
+        <activity android:name="com.example.onlinecourseregistration.CourseList" >
+        </activity>
+        <activity android:name="com.example.onlinecourseregistration.MyCourses" >
+        </activity>
+        <activity android:name="com.example.onlinecourseregistration.StudentSchedule" >
+        </activity>
+        <activity android:name="com.example.onlinecourseregistration.InstructorMainActivity" >
+        </activity>
+        <activity android:name="com.example.onlinecourseregistration.InstructorRecord" >
+        </activity>
+         <activity android:name="com.example.onlinecourseregistration.InstrructorSchedule" >
+        </activity>
+    </application>
+
+</manifest>
