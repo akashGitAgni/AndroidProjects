@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/url_address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:imeOptions="actionGo"
+        android:inputType="textEmailAddress" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/buttonrow1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/url_address" >
+
+        <Button
+            android:id="@+id/buttonGo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Go" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/buttonForward"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Forward" />
+        
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="C" />
+        
+         <Button
+            android:id="@+id/buttonZoomin"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/buttonZoomout"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="-" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" 
+        android:layout_below="@+id/buttonrow1">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+</RelativeLayout>
