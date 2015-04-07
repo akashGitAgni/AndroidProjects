@@ -6,7 +6,7 @@ A simple Android project to access Mysql db using webservice .
 Using Webview to make simple browser for android.
 
 3)Mail reader for grading.
-A small written for seding and sorting mails as per need.
+A small program written for seding and sorting mails as per need.
 
 4)Implement Java thread, Semaphore, LRU cache etc.
 
